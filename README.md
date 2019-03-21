@@ -23,3 +23,8 @@
 <br/>GUI : Tkinter
  - <a href="https://youtu.be/AiPB9F6pA-I">관련 영상1</a>
  - <a href="https://youtu.be/Bxopu2-850I">관련 영상2</a>
+
+## 5. 블루투스를 이용한 LED Matrix 모바일 연동
+언어 : C언어
+<br/> 아두이노 사용
+ - <a href="https://youtu.be/17BQ-2_1G2w">관련 영상</a>
