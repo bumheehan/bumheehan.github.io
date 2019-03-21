@@ -1,7 +1,7 @@
 # Portfolio
 포트폴리오
 
- ## 1. 소켓 프로그래밍을 이용한 1to50 게임
+## 1. 소켓 프로그래밍을 이용한 1to50 게임
   언어 : JAVA
   <br/>GUI : Java Swing
  -	<a href="https://youtu.be/AVnaVDQXX8I">관련 영상</a>
