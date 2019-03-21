@@ -13,7 +13,7 @@
  <br/>클라이언트 언어: JSP
  - <a href="http://applabo.xyz">사이트(PC 환경)</a>
  
- ## 3. 그라데이션 컬러 매칭게임
+## 3. 그라데이션 컬러 매칭게임
  언어 : JavaScript 
  <br/>메인 라이브러리 : pixi.js
  - <a href="http://www.applabo.xyz/game?game=1">사이트(PC 환경)</a>
