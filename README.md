@@ -9,10 +9,12 @@
  
 ## 2. 스프링 프레임워크를 이용한 엔터프라이즈 웹사이트(팀)
 팀원 : 한범희 신경식 빙은지 김은수 최성수
- <br/>웹서비스 : GCP(구글 클라우드 플랫폼)
- <br/>데이터베이스 : 구글 SQL(MySQL)
+ <br/>웹서비스 : AWS->GCP(구글 클라우드 플랫폼)
+ <br/>데이터베이스 : RDS->구글 SQL(MySQL)
+ <br/>OS :리눅스(+톰캣)
  <br/>서버 언어 : Java(Spring Framework)
  <br/>클라이언트 언어: JSP
+ <br/>도메인 : http://applabo.xyz
  - <a href="http://applabo.xyz">사이트(PC 환경)</a>
  
 ## 3. 그라데이션 컬러 매칭게임 (개인)
