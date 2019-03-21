@@ -4,7 +4,7 @@
  ## 1. 소켓 프로그래밍을 이용한 1to50 게임
   언어 : JAVA
   <br/>GUI : Java Swing
- -	https://youtu.be/AVnaVDQXX8I
+ -	<a href="https://youtu.be/AVnaVDQXX8I">관련 </a>
  
 ## 2. 스프링 프레임워크를 이용한 엔터프라이즈 웹사이트
  웹서비스 : GCP(구글 클라우드 플랫폼)
