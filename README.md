@@ -6,16 +6,16 @@
 ## 1. 스프링 프레임워크를 이용한 엔터프라이즈 웹사이트(팀)
 팀원 : 한범희 신경식 빙은지 김은수 최성수
  <br/>웹서비스 : AWS->GCP(구글 클라우드 플랫폼)
- <br/>데이터베이스 : RDS->구글 SQL(MySQL)
- <br/>OS :리눅스(+톰캣)
- <br/>서버 언어 : Java(Spring Framework)
- <br/>클라이언트 언어: JSP
+ <br/>DB : RDS->구글 SQL(MySQL)
+ <br/>OS : Linux(CENTOS)
+ <br/>WAS : Tomcat
+ <br/>언어 : Java(Spring Framework), jsp, javascript
  <br/>도메인 : http://applabo.xyz
  - <a href="http://applabo.xyz">사이트(PC 환경)</a>
  
 ## 2. 소켓 프로그래밍을 이용한 1to50 게임(팀)
   팀원 : 한범희, 빙은지, 김한나
-  <br/>언어 : JAVA
+  <br/>사용언어 : Java
   <br/>GUI : Java Swing
  -	<a href="https://youtu.be/AVnaVDQXX8I">관련 영상</a>
  
@@ -31,6 +31,6 @@
  - <a href="https://youtu.be/Bxopu2-850I">관련 영상2</a>
 
 ## 5. 블루투스를 이용한 LED Matrix 모바일 연동(개인)
-언어 : C언어
+언어 : C
 <br/> 아두이노 사용
  - <a href="https://youtu.be/17BQ-2_1G2w">관련 영상</a>
