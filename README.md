@@ -37,7 +37,7 @@
  언어 : JavaScript 
  <br/>메인 라이브러리 : pixi.js
  - <a href="http://www.applabo.xyz/game?game=1">사이트(PC 환경)</a>
-
+ - <a href="https://github.com/bumheehan/colormatch">코드</a>
  ### 담당
  - 게임 알고리즘 구현
  - Pixi.js 공부 및 사용
