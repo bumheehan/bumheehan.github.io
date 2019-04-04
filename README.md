@@ -27,7 +27,7 @@
   <br/>사용언어 : Java
   <br/>GUI : Java Swing
  -	<a href="https://youtu.be/AVnaVDQXX8I">관련 영상</a>
-
+ - <a href="https://github.com/bumheehan/1to50">코드 및 실행파일</a>
 ### 담당
  - 디자인 UI 개발
  - 게임 알고리즘 개발
