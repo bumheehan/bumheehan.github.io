@@ -4,13 +4,14 @@
 
  
 ## 1. 스프링 프레임워크를 이용한 엔터프라이즈 웹사이트(팀)
-팀원 : 한범희 신경식 빙은지 김은수 최성수
- <br/>웹서비스 : AWS->GCP(구글 클라우드 플랫폼)
- <br/>DB : RDS->구글 SQL(MySQL)
- <br/>OS : Linux(CENTOS)
- <br/>WAS : Tomcat
- <br/>언어 : Java(Spring Framework), jsp, javascript
- <br/>도메인 : http://applabo.xyz
+### 기본정보
+ - 팀원 : 한범희 신경식 빙은지 김은수 최성수
+ - 웹서비스 : AWS->GCP(구글 클라우드 플랫폼)
+ - DB : RDS->구글 SQL(MySQL)
+ - OS : Linux(CENTOS)
+ - WAS : Tomcat
+ - 언어 : Java(Spring Framework), jsp, javascript
+ - 도메인 : http://applabo.xyz
  - <a href="http://applabo.xyz">사이트(PC 환경)</a>
 ### 관련영상
   [![Watch the video](https://img.youtube.com/vi/w5eQlGDR6lE/0.jpg)]( https://youtu.be/w5eQlGDR6lE)
@@ -25,21 +26,22 @@
  - 스마트워크 사용하여 도메인 이메일 연결
  
 ## 2. 소켓 프로그래밍을 이용한 1to50 게임(팀)
-  팀원 : 한범희, 빙은지, 김한나
-  <br/>사용언어 : Java
-  <br/>GUI : Java Swing
- ### 관련영상
+### 기본정보
+ - 팀원 : 한범희, 빙은지, 김한나
+ - 사용언어 : Java
+ - GUI : Java Swing
+### 관련영상
   [![Watch the video](https://img.youtube.com/vi/AVnaVDQXX8I/0.jpg)](https://youtu.be/AVnaVDQXX8I)
  - <a href="https://github.com/bumheehan/1to50">코드 및 실행파일</a>
-
 ### 수행내역
  - 디자인 UI 개발
  - 게임 알고리즘 개발
  - 소켓 프로그래밍으로 멀티 구현
  
 ## 3. 그라데이션 컬러 매칭게임 (개인)
- 언어 : JavaScript 
- <br/>메인 라이브러리 : pixi.js
+### 기본정보
+ - 언어 : JavaScript 
+ - 메인 라이브러리 : pixi.js
  - <a href="http://www.applabo.xyz/game?game=1">사이트(PC 환경)</a>
  - <a href="https://github.com/bumheehan/colormatch">코드</a>
 ### 수행내역
@@ -48,8 +50,9 @@
  - 비동기 통신으로 DB에 Insert하여 랭킹 구현
  
 ## 4. 가상 시스템 트레이딩(개인)
-언어 : Python
-<br/>GUI : Tkinter
+### 기본정보
+ - 언어 : Python
+ - GUI : Tkinter
 ### 관련영상1
  [![Watch the video](https://img.youtube.com/vi/AiPB9F6pA-I/0.jpg)](https://youtu.be/AiPB9F6pA-I)
 ### 관련영상2
@@ -61,8 +64,9 @@
  - 조건에 맞추어 자동 매수 매도 가능하게 구현
  
 ## 5. 블루투스를 이용한 LED Matrix 모바일 연동(개인)
-언어 : C
-<br/> 아두이노 사용
+### 기본정보
+ - 언어 : C
+ - 아두이노 사용
 ### 관련영상
  [![Watch the video](https://img.youtube.com/vi/17BQ-2_1G2w/0.jpg)](https://youtu.be/17BQ-2_1G2w)
  
