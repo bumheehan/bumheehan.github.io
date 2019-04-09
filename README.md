@@ -28,7 +28,7 @@
   팀원 : 한범희, 빙은지, 김한나
   <br/>사용언어 : Java
   <br/>GUI : Java Swing
-  ### 관련영상
+ ### 관련영상
   [![Watch the video](https://img.youtube.com/vi/AVnaVDQXX8I/0.jpg)](https://youtu.be/AVnaVDQXX8I)
  - <a href="https://github.com/bumheehan/1to50">코드 및 실행파일</a>
 
