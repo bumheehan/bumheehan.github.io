@@ -12,6 +12,8 @@
  <br/>언어 : Java(Spring Framework), jsp, javascript
  <br/>도메인 : http://applabo.xyz
  - <a href="http://applabo.xyz">사이트(PC 환경)</a>
+ <br/> - 관련영상<br/>
+  [![Watch the video](https://img.youtube.com/vi/w5eQlGDR6lE/0.jpg)]( https://youtu.be/w5eQlGDR6lE)
 ### 수행내역
  - 모든 페이지 디자인 및 JSP 구현
  - 게임내에 댓글기능 구현
