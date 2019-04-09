@@ -26,7 +26,7 @@
   팀원 : 한범희, 빙은지, 김한나
   <br/>사용언어 : Java
   <br/>GUI : Java Swing
- -	<a href="https://youtu.be/AVnaVDQXX8I">관련 영상</a>
+ -	<iframe width="1280" height="688" src="https://www.youtube.com/embed/AVnaVDQXX8I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
  - <a href="https://github.com/bumheehan/1to50">코드 및 실행파일</a>
 ### 수행내역
  - 디자인 UI 개발
