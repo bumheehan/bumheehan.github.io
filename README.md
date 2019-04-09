@@ -27,7 +27,7 @@
   <br/>사용언어 : Java
   <br/>GUI : Java Swing
   <br/>-관련 영상1 <br/>
-  [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/AVnaVDQXX8I)
+  [![Watch the video](https://img.youtube.com/vi/AVnaVDQXX8I/0.jpg)](https://youtu.be/AVnaVDQXX8I)
  - <a href="https://github.com/bumheehan/1to50">코드 및 실행파일</a>
 
 ### 수행내역
@@ -50,9 +50,9 @@
 <br/>GUI : Tkinter
  <br/>- 관련 영상1<br/>
 
- [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/AiPB9F6pA-I)
+ [![Watch the video](https://img.youtube.com/vi/AiPB9F6pA-I/0.jpg)](https://youtu.be/AiPB9F6pA-I)
  <br/> - 관련 영상2<br/>
- [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/Bxopu2-850I)
+ [![Watch the video](https://img.youtube.com/vi/Bxopu2-850I/0.jpg)](https://youtu.be/Bxopu2-850I)
 ### 수행내역
  - 주식 지표(RSI,MACD) 계산하여 그래프 형태로 구현
  - 시세 API로 받아와서 캔들형식으로 구현
@@ -63,7 +63,7 @@
 언어 : C
 <br/> 아두이노 사용
  <br/>- 관련 영상<br/>
- [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/17BQ-2_1G2w)
+ [![Watch the video](https://img.youtube.com/vi/17BQ-2_1G2w/0.jpg)](https://youtu.be/17BQ-2_1G2w)
  
 ### 수행내역
   - 모바일(안드로이드) 그림판 구현
