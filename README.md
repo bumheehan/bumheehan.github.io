@@ -12,7 +12,7 @@
  <br/>언어 : Java(Spring Framework), jsp, javascript
  <br/>도메인 : http://applabo.xyz
  - <a href="http://applabo.xyz">사이트(PC 환경)</a>
- <br/> - 관련영상<br/>
+ ### 관련영상
   [![Watch the video](https://img.youtube.com/vi/w5eQlGDR6lE/0.jpg)]( https://youtu.be/w5eQlGDR6lE)
 ### 수행내역
  - 모든 페이지 디자인 및 JSP 구현
@@ -28,7 +28,7 @@
   팀원 : 한범희, 빙은지, 김한나
   <br/>사용언어 : Java
   <br/>GUI : Java Swing
-  <br/>-관련 영상1 <br/>
+  ### 관련영상
   [![Watch the video](https://img.youtube.com/vi/AVnaVDQXX8I/0.jpg)](https://youtu.be/AVnaVDQXX8I)
  - <a href="https://github.com/bumheehan/1to50">코드 및 실행파일</a>
 
@@ -50,10 +50,10 @@
 ## 4. 가상 시스템 트레이딩(개인)
 언어 : Python
 <br/>GUI : Tkinter
- <br/>- 관련 영상1<br/>
+ ### 관련영상1
 
  [![Watch the video](https://img.youtube.com/vi/AiPB9F6pA-I/0.jpg)](https://youtu.be/AiPB9F6pA-I)
- <br/> - 관련 영상2<br/>
+### 관련영상2
  [![Watch the video](https://img.youtube.com/vi/Bxopu2-850I/0.jpg)](https://youtu.be/Bxopu2-850I)
 ### 수행내역
  - 주식 지표(RSI,MACD) 계산하여 그래프 형태로 구현
@@ -64,7 +64,7 @@
 ## 5. 블루투스를 이용한 LED Matrix 모바일 연동(개인)
 언어 : C
 <br/> 아두이노 사용
- <br/>- 관련 영상<br/>
+ ### 관련영상
  [![Watch the video](https://img.youtube.com/vi/17BQ-2_1G2w/0.jpg)](https://youtu.be/17BQ-2_1G2w)
  
 ### 수행내역
