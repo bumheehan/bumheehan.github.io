@@ -26,7 +26,7 @@
   팀원 : 한범희, 빙은지, 김한나
   <br/>사용언어 : Java
   <br/>GUI : Java Swing
-  -관련 영상1
+  <br/>-관련 영상1 <br/>
   [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/AVnaVDQXX8I)
  - <a href="https://github.com/bumheehan/1to50">코드 및 실행파일</a>
 
@@ -48,10 +48,10 @@
 ## 4. 가상 시스템 트레이딩(개인)
 언어 : Python
 <br/>GUI : Tkinter
- - 관련 영상1
+ <br/>- 관련 영상1<br/>
 
  [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/AiPB9F6pA-I)
-  - 관련 영상2
+ <br/> - 관련 영상2<br/>
  [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/Bxopu2-850I)
 ### 수행내역
  - 주식 지표(RSI,MACD) 계산하여 그래프 형태로 구현
@@ -62,7 +62,7 @@
 ## 5. 블루투스를 이용한 LED Matrix 모바일 연동(개인)
 언어 : C
 <br/> 아두이노 사용
- - 관련 영상
+ <br/>- 관련 영상<br/>
  [![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/17BQ-2_1G2w)
  
 ### 수행내역
