@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+
+
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    outline: 0;
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.back {
+    width: 100%;
+    height: 100%;
+    background-image: url(/portfolio/res/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    background-position: center;
+    z-index: -1;
+}
+
+.main {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+    width: 300px;
+    height: 50px;
+    position: fixed;
+    background: green;
+    right: 0;
+    top: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    z-index: 1;
+
+}
+
+.menu li {
+    float: left;
+}
+
+.menuitem {
+    width: 100px;
+    height: 100%;
+    text-align: center;
+    background: green;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.menuitem:hover {
+    background: red;
+}
+
+.aboutme {
+    padding-top: 300px;
+    width: 100%;
+    background:
+    padding-bottom: 200px;
+
+}
+
+.project {
+    width: 100%;
+    background: blue;
+    padding-top: 300px;
+    padding-bottom: 100px;
+}
+
+.contact {
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+
+.main_center {
+    position: relative;
+    top: 50%;
+}
+
+.main_text_center {
+
+    text-align: center;
+    font-size: 36px;
+}
+
+.lead {
+    font-size: 20px;
+    color: white;
+}
+
+.aboutme_text_center {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    text-align: center;
+}
+
+.aboutme_box {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+}
+
+.aboutme_me {
+    position: relative;
+    float: left;
+    width: 600px;
+    margin-top: 100px;
+}
+
+.aboutme_skill {
+    position: relative;
+    width: 600px;
+    float: right;
+    margin-top: 100px;
+}
+
+.aboutme_box::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.project_text_center {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+
+.project_box {
+    position: relative;
+    top: 30%;
+    width: 1230px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background: yellow;
+}
+
+.project_left {
+    width: 600px;
+    height: 300px;
+    margin-bottom: 30px;
+    background: pink;
+    float: left;
+}
+
+.project_right {
+    width: 600px;
+    height: 300px;
+    margin-bottom: 30px;
+    background: purple;
+    float: right;
+}
+
+.project_left div:first-child {
+    float: left;
+}
+
+.project_left div:last-child {
+    float: right;
+}
+
+.project_right div:first-child {
+    float: right;
+}
+
+.project_right div:last-child {
+    float: left;
+}
+
+.project_item_sub {
+    width: 300px;
+    height: 300px;
+    background: black;
+    position: relative;
+}
+
+.project_item_cont {
+    width: 300px;
+    height: 300px;
+    background: white;
+    position: relative;
+}
+
+.project_box::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.project_left::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.project_right::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+@media screen and (min-width:700px) and (max-width:1279px) {
+    .aboutme_me {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .aboutme_skill {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .project_box {
+        width: 100%;
+    }
+
+    .project_left {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project_right {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media screen and (max-width:699px) {
+    .aboutme_me {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+
+    }
+
+    .aboutme_skill {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+
+    }
+
+    .project_box {
+        width: 100%;
+    }
+
+    .project_left {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+    }
+
+    .project_right {
+        width: 100%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+    }
+
+    .project_item_sub {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project_item_cont {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project_left div:first-child {
+        float: none;
+    }
+
+    .project_left div:last-child {
+        float: none;
+    }
+
+    .project_right div:first-child {
+        float: none;
+    }
+
+    .project_right div:last-child {
+        float: none;
+    }
+
+    .project {
+        padding-top: 100px;
+        height: auto;
+    }
+
+}
+
+
+
+/* 컨텐츠 */
+
+.aboutme_skill_cont {
+    width: 100%;
+    text-align: center;
+}
+
+.aboutme_me_cont {
+    width: 100%;
+}
+.aboutme_skill_sub{
+    display: block;
+    text-align: center;
+}
+.profile_img {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile_txt {
+    word-wrap: keep-all;
+    text-align: center;
+}
+
+.skill_col {
+    display: flex;
+    justify-content: space-around;
+    line-height: 150%;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.skill_sub {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+}
