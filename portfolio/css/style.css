@@ -164,22 +164,19 @@ html {
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
-    background: yellow;
 }
 
 .project_left {
     width: 600px;
-    height: 300px;
+    height: 250px;
     margin-bottom: 30px;
-    background: pink;
     float: left;
 }
 
 .project_right {
     width: 600px;
-    height: 300px;
+    height: 250px;
     margin-bottom: 30px;
-    background: purple;
     float: right;
 }
 
@@ -201,16 +198,17 @@ html {
 
 .project_item_sub {
     width: 300px;
-    height: 300px;
+    height: 250px;
     background: black;
     position: relative;
 }
 
 .project_item_cont {
     width: 300px;
-    height: 300px;
-    background: white;
+    height: 250px;
+    background: red;
     position: relative;
+    border-radius: 30px;
 }
 
 .project_box::after {
@@ -379,3 +377,42 @@ html {
     text-align: center;
     font-family: 'Anton', sans-serif;
 }
+.carousel-item img{
+    width: 300px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.project_left .project_item_cont .carousel .carousel-indicators-numbers{
+    right: 0;
+    left: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+.project_right .project_item_cont .carousel .carousel-indicators-numbers{
+    right: auto;
+    left: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+.carousel-indicators-numbers  li{
+    text-indent: inherit;
+    text-align: center;
+      margin: 0 2px;
+      width: 30px;
+      height: 30px;
+      border: none;
+      border-radius: 100%;
+      line-height: 30px;
+      color: #fff;
+      background-color: #999;
+      transition: all 0.25s ease;
+
+
+}
+.carousel-indicators-numbers  li:active, .carousel-indicators-numbers  li:hover {
+        margin: 0 2px;
+        width: 30px;
+        height: 30px;
+        background-color: #337ab7;
+    }
