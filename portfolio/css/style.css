@@ -201,6 +201,7 @@ html {
     height: 250px;
     background: black;
     position: relative;
+    text-align: center;
 }
 
 .project_item_cont {
@@ -384,16 +385,20 @@ html {
 }
 
 .project_left .project_item_cont .carousel .carousel-indicators-numbers{
-    right: 0;
+    right: 10px;
     left: auto;
     margin-left: 0;
     margin-right: 0;
+    bottom: -20px;
+    margin-bottom: 0;
 }
 .project_right .project_item_cont .carousel .carousel-indicators-numbers{
     right: auto;
-    left: 0;
+    left: 10px;
     margin-left: 0;
     margin-right: 0;
+    bottom: -20px;
+    margin-bottom: 0;
 }
 .carousel-indicators-numbers  li{
     text-indent: inherit;
@@ -407,6 +412,9 @@ html {
       color: #fff;
       background-color: #999;
       transition: all 0.25s ease;
+    position: relative;
+
+
 
 
 }
@@ -415,4 +423,29 @@ html {
         width: 30px;
         height: 30px;
         background-color: #337ab7;
+
     }
+
+.subcenter{
+    position: relative;
+    top:20px;
+    display: block;
+    width: 100%;
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+
+.project_item_sub ul li{
+    display: block;
+    color: aliceblue;
+    font-size: 13px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.git{
+    position: absolute;
+    right: 0px;
+    color: aliceblue;
+    font-size: 50px;
+}
