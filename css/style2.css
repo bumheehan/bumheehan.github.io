@@ -341,23 +341,19 @@ html {
 
     .project_left div:first-child {
         float: none;
-        height: auto; /* 추가 */
         text-align: center;
     }
 
     .project_left div:last-child {
         float: none;
-        height: auto; /* 추가 */
     }
 
     .project_right div:first-child {
         float: none;
-        height: auto; /* 추가 */
     }
 
     .project_right div:last-child {
         float: none;
-        height: auto; /* 추가 */
     }
 
     .project {
