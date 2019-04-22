@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한범희의 포트폴리오입니다.</title>
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Pacifico|Ubuntu" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="back"></div>
+    <nav class="navbar0">
+        <ul class="menu">
+            <li class="menuitem">about</li>
+            <li class="menuitem">portfolio</li>
+            <li class="menuitem">contact</li>
+        </ul>
+    </nav>
+    <div class="main">
+        <div class="main_center">
+            <h1 class="main_text_center">안녕하세요.</h1>
+            <p class="lead main_text_center">웹 개발자 포트폴리오 입니다.</p>
+        </div>
+    </div>
+
+    <div class="aboutme">
+        <h1 class="aboutme_text_center">About Me</h1>
+        <div class="aboutme_box">
+            <div class="aboutme_me">
+                <div class="aboutme_me_cont">
+                    <img src="res/5.png" alt="" class="profile_img">
+                    <p class="profile_txt">미래를 기계공학으로만 정해놓고 앞으로 나가던 중에 대학교에서 우연히 C 언어를 접하게 되었습니다. 간단한 사칙
+                        연산부터 시작해서 내가 설계한 알고리즘을 수행할 수 있다는 것에 흥미를 느꼈습니다. 이 수업을 수강한 뒤에 프
+                        로그래밍에 관심이 생겼고 방학 때 자바 기초를 독학하면서 전공 관련 어플리케이션을 개발했습니다. 이후에 졸업
+                        작품으로는 자동 기타 연주 장치로 모바일에서 악보를 해석하고 아두이노에 블루투스 통신으로 해석된 악보를 받
+                        아 자동 연주되는 장치를 만들었고 졸업 후 시스템 트레이딩에 관심이 생겨 Python 으로 거래소 API 를 사용하여
+                        시세 데이터를 받아왔고 RSI 나 MCAD 같은 필수 지표를 도출하여 표현하는 가상 거래 프로그램을 만들어봤습니
+                        다. 하지만 개발을 하는 도중 체계화되지 않은 프로그래밍에 대해서 많은 고민을 하였고 객체지향의 기초와 웹개발
+                        자로서 기반를 닦기 위해 자바 웹/앱 과정을 수료했습니다</p>
+                </div>
+            </div>
+            <div class="aboutme_skill">
+                <span class="aboutme_skill_sub">skills</span>
+                <div class="aboutme_skill_cont">
+
+                    <span class="skill_sub">Language & DataBase</span>
+                    <div class="skill_col">
+                        <ul>
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>C</li>
+                            <li>MySQL</li>
+                            <li>ORACLE</li>
+                        </ul>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>JQuery</li>
+                            <li>Android</li>
+                        </ul>
+                    </div>
+
+                    <span class="skill_sub">Tool & Framework</span>
+                    <div class="skill_col">
+                        <ul>
+                            <li>Spring Framework</li>
+                            <li>Pytorch</li>
+                            <li>Tensorflow</li>
+
+                        </ul>
+                        <ul>
+                            <li>AWS(+RDS)</li>
+                            <li>GCP(+Google SQL)</li>
+                            <li>Tomcat</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="project">
+        <h1 class="project_text_center">Project</h1>
+        <div class="project_box">
+            <div class="project_left">
+                <div class="project_item_sub">
+                    <div class="subcenter">스프링 프레임워크를 이용한 <br />엔터프라이즈 웹사이트(팀)
+                    </div>
+                    <ul>
+                        <li>웹서비스 : AWS->GCP(구글 클라우드 플랫폼)</li>
+                        <li>DB : RDS->구글 SQL(MySQL)</li>
+                        <li>OS : Linux(CENTOS)</li>
+                        <li>WAS : Tomcat</li>
+                        <li>언어 : Java(Spring Framework), jsp, javascript</li>
+                        <li>도메인 : http://applabo.xyz</li>
+                        <li class="git"><i class="fab fa-github"></i></li>
+                    </ul>
+
+                </div>
+                <div class="project_item_cont">
+                    <div id="myCarousel1" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators carousel-indicators-numbers">
+                            <li data-target="#myCarousel1" data-slide-to="0" class="active">1</li>
+
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="https://youtu.be/w5eQlGDR6lE" target="_blank"><img src="https://img.youtube.com/vi/w5eQlGDR6lE/0.jpg" alt=""></a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="project_right">
+                <div class="project_item_sub">
+                    <div class="subcenter">소켓 프로그래밍을 이용한<br /> 1to50 게임(팀)</div>
+                    <ul>
+                        <li>사용언어 : Java</li>
+                        <li>GUI : Java Swing </li>
+                        <li class="git"><i class="fab fa-github"></i></li>
+                    </ul>
+
+                </div>
+                <div class="project_item_cont">
+
+                    <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators carousel-indicators-numbers">
+                            <li data-target="#myCarousel2" data-slide-to="0" class="active">1</li>
+
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="https://youtu.be/AVnaVDQXX8I" target="_blank"><img src="https://img.youtube.com/vi/AVnaVDQXX8I/0.jpg" alt=""></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project_left">
+                <div class="project_item_sub">
+                    <div class="subcenter">그라데이션 컬러 매칭게임 (개인)
+                    </div>
+                    <ul>
+                        <li>언어 : JavaScript</li>
+                        <li>메인 라이브러리 : pixi.js</li>
+                        <li>사이트(PC 환경)</li>
+                        <li class="git"><i class="fab fa-github"></i></li>
+                    </ul>
+
+                </div>
+                <div class="project_item_cont">
+                    <div id="myCarousel3" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators carousel-indicators-numbers">
+                            <li data-target="#myCarousel3" data-slide-to="0" class="active">1</li>
+                            <li data-target="#myCarousel3" data-slide-to="1">2</li>
+                            <li data-target="#myCarousel3" data-slide-to="2">3</li>
+                        </ol>
+                        <div class="carousel-inner">
+                           <div class="carousel-item active">
+                                <a href="http://www.applabo.xyz/game?game=1" target="_blank"><img src="res/77.png" alt=""></a>
+                            </div>
+                            <div class="carousel-item ">
+                                <a href="http://www.applabo.xyz/game?game=1" target="_blank"><img src="res/55.png" alt=""></a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="http://www.applabo.xyz/game?game=1" target="_blank"><img src="res/66.png" alt=""></a>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="project_right">
+                <div class="project_item_sub">
+                    <div class="subcenter">가상 시스템 트레이딩(개인)
+                    </div>
+                    <ul>
+                        <li>언어 : Python</li>
+                        <li>GUI : Tkinter</li>
+                        <li class="git"><i class="fab fa-github"></i></li>
+                    </ul>
+
+                </div>
+                <div class="project_item_cont">
+                    <div id="myCarousel4" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators carousel-indicators-numbers">
+                            <li data-target="#myCarousel4" data-slide-to="0" class="active">1</li>
+                            <li data-target="#myCarousel4" data-slide-to="1">2</li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="https://youtu.be/AiPB9F6pA-I" target="_blank"><img src="https://img.youtube.com/vi/AiPB9F6pA-I/0.jpg" alt=""></a>
+                            </div>
+                            <div class="carousel-item">
+                                <a href="https://youtu.be/Bxopu2-850I" target="_blank"><img src="https://img.youtube.com/vi/Bxopu2-850I/0.jpg" alt=""></a>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="project_left">
+                <div class="project_item_sub">
+                    <div class="subcenter">블루투스를 이용한 <br />LED Matrix 모바일 연동(개인)
+                    </div>
+                    <ul>
+                        <li>언어 : C</li>
+                        <li>아두이노 사용</li>
+                        <li class="git"><i class="fab fa-github"></i></li>
+                    </ul>
+
+                </div>
+                <div class="project_item_cont">
+                    <div id="myCarousel5" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators carousel-indicators-numbers">
+                            <li data-target="#myCarousel5" data-slide-to="0" class="active">1</li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="https://youtu.be/17BQ-2_1G2w" target="_blank"><img src="https://img.youtube.com/vi/17BQ-2_1G2w/0.jpg" alt=""></a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="contact"></div>
+</body>
+<script>
+
+</script>
+<script src="js/portfolio.js"></script>
+
+</html>
