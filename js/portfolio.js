@@ -3,10 +3,10 @@ $(document).ready(function () {
     window.addEventListener("scroll", function () {
         if (window.scrollY > window.innerHeight * 2) {
             ele = document.querySelector(".back");
-            ele.style = "background-image: url(/portfolio/res/contact.jpg)";
+            ele.style = "background-image: url(/res/contact.jpg)";
         } else {
             ele = document.querySelector(".back");
-            ele.style = "background-image: url(/portfolio/res/background.jpg)";
+            ele.style = "background-image: url(/res/background.jpg)";
         }
 
 
