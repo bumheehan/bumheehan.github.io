@@ -37,5 +37,18 @@ $(document).ready(function () {
         }, 1000);
     })
 
+    pro = document.querySelectorAll(".project_item_sub");
+    pro.forEach((ele)=>{
+        $(ele).hover(
+          function () {
+              $(this).stop().animate({height:"500px"},500);
+          },
+           function () {
+            $(this).stop().animate({height:"250px"},500);
+          }
+        );
+
+    });
+
 
 });

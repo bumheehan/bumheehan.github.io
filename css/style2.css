@@ -329,6 +329,7 @@ html {
 
     .project_item_sub {
         padding:0 !important;
+        height: auto;
         float: none;
         margin-left: auto;
         margin-right: auto;
