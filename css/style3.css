@@ -1,0 +1,515 @@
+/*
+#91d4c2
+#45bb89
+#3d82ab
+#003853
+
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+
+
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+a {
+    outline: 0;
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+}
+
+body,
+html {
+    height: 100%;
+    min-width:360px;
+}
+
+
+.back {
+    width: 100%;
+    height: 100%;
+    background-image: url(/res/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    background-position: center;
+    z-index: -1;
+}
+
+.main {
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.menu {
+    width: 300px;
+    height: 50px;
+    position: fixed;
+    background: #91d4c2;
+    right: 0;
+    top: 20px; /* 상단 여백 추가 */
+    list-style-type: none;
+    overflow: hidden;
+    /*background-color: #003853; 제거 */
+    z-index: 100; /* 100 200 300 500 1000 단위를 크게줘서 끊어주면 나중에 인덱스 관리할때 편함 */
+    border-radius: 10px 0px 0px 10px;
+
+}
+
+.menu li {
+    float: left;
+}
+
+.menuitem {
+    width: 100px;
+    height: 100%;
+    text-align: center;
+    background: #3d82ab;
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+}
+
+.menuitem:hover {
+    background: #1c7db7;
+}
+
+.aboutme {
+    padding-top: 200px;
+    width: 100%;
+    background:#91d4c2;
+    padding-bottom: 200px;
+    color: #003853;
+
+}
+
+.project {
+    width: 100%;
+    background: #45bb89;
+    padding-top: 200px;
+    padding-bottom: 100px;
+    color: aliceblue;
+}
+
+.contact {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+.main_center {
+    color: #91d4c2;
+    position: relative;
+    top: 50%;
+}
+
+.main_text_center {
+
+    text-align: center;
+    font-size: 36px;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.aboutme_text_center {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    text-align: center;
+}
+
+.aboutme_box {
+    max-width: 1440px; /* 노트북 가장많이 쓰는 사이즈로 최대 width 값 적용 */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.aboutme_me {
+    position: relative;
+    float: left;
+    width: 600px;
+
+}
+
+.aboutme_skill {
+    position: relative;
+    width: 600px;
+    float: right;
+}
+
+.aboutme_box::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.project_text_center {
+    font-family: 'Anton', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+
+.project_box {
+    position: relative;
+    top: 30%;
+    width: 1230px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project_left {
+    width: 600px;
+    height: 250px;
+    margin-bottom: 30px;
+    float: left;
+}
+
+.project_right {
+    width: 600px;
+    height: 250px;
+    margin-bottom: 30px;
+    float: right;
+}
+
+.project_right .project_item_sub {padding-left:20px; text-align: left;} /* 추가 */
+
+.project_left div:first-child {
+    float: left;
+    text-align: right; /* 추가 */
+}
+.project_left .project_item_sub {padding-right:20px;} /* 추가 */
+
+.project_left div:last-child {
+    float: right;
+}
+
+.project_right div:first-child {
+    float: right;
+}
+
+.project_right div:last-child {
+    float: left;
+}
+
+.project_item_sub {
+    width: 300px;
+    height: 250px;
+    position: relative;
+    text-align: center;
+}
+
+.project_item_cont {
+    width: 300px;
+    height: 250px;
+    position: relative;
+    padding: 10px;
+    background: black;
+    border: 5px aliceblue solid;
+}
+
+.project_box::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.project_left::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.project_right::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+@media screen and (min-width:700px) and (max-width:1279px) {
+    .aboutme_me {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .aboutme_skill {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .project_box {
+        width: 100%;
+    }
+
+    .project_left {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project_right {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+@media screen and (max-width:699px) {
+    .aboutme_me {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+
+    }
+
+    .aboutme_skill {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+
+    }
+
+    .project_box {
+        width: 100%;
+    }
+    .project_left div,
+    .project_right div,
+    .project_left li,
+    .project_right li {text-align:center;}
+
+    .subcenter {font-size: 24px;}
+    .project_item_sub ul li {margin-top:2px; font-size:14px !important;}
+    .project_left {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+        margin-bottom:70px;
+    }
+
+    .project_right {
+        width: 100%;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        margin-bottom:50px; /* 추가 */
+    }
+
+    .project_item_sub {
+        padding:0 !important;
+        height: auto;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project_item_cont {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project_left div:first-child {
+        float: none;
+        text-align: center;
+    }
+
+    .project_left div:last-child {
+        float: none;
+    }
+
+    .project_right div:first-child {
+        float: none;
+    }
+
+    .project_right div:last-child {
+        float: none;
+    }
+
+    .project {
+        padding-top: 100px;
+        height: auto;
+    }
+
+}
+
+
+
+/* 컨텐츠 */
+
+.aboutme_skill_cont {
+    width: 100%;
+    text-align: center;
+}
+
+.aboutme_me_cont {
+    width: 100%;
+}
+.aboutme_skill_sub{
+    display: block;
+    text-align: center;
+}
+.profile_img {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile_txt {
+    margin-top:20px;
+    word-wrap: keep-all;
+    text-align: center;
+    color: inherit;
+    line-height:1.8;
+}
+
+.skill_col {
+    display: flex;
+    justify-content: space-around;
+    line-height: 200%;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.skill_sub {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-weight:normal;
+}
+.carousel-item img{
+    width: 300px;
+    height: 220px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.project_left .project_item_cont .carousel .carousel-indicators-numbers{
+    right: 10px;
+    left: auto;
+    margin-left: 0;
+    margin-right: 0;
+    top:200px;
+    margin-bottom: 0;
+}
+.project_right .project_item_cont .carousel .carousel-indicators-numbers{
+    right: auto;
+    left: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    top: 200px;
+    margin-bottom: 0;
+}
+.carousel-indicators-numbers  li{
+    text-indent: inherit;
+    text-align: center;
+      margin: 0 2px;
+      width: 10px;
+      height: 10px;
+      border: none;
+      border-radius: 100%;
+      line-height: 30px;
+      color: #003853;
+      background-color: #3d82ab;
+      transition: all 0.25s ease;
+    position: relative;
+
+
+
+
+
+}
+.carousel-indicators-numbers .active{
+    background-color: #91d4c2;
+}
+.carousel-indicators-numbers  li:active, .carousel-indicators-numbers  li:hover {
+        margin: 0 2px;
+        background-color: #45bb89;
+
+    }
+
+.subcenter{
+    position: relative;
+    top:20px;
+    display: block;
+    width: 100%;
+    color: aliceblue;
+    margin-bottom: 30px;
+    text-align:left; /* 왼쪽 정렬 */
+}
+
+.project_item_sub ul li{
+    display: block;
+    color: aliceblue;
+    font-size: 13px;
+    /* text-align: left; 제거 */
+    /* margin-left: 20px; 제거 */
+    margin-top: 8px; /* 여백 증가 */
+    font-weight:normal; /* 폰트 얇게 */
+}
+.git i {
+    color: aliceblue;
+    font-size: 30px;
+}
+.carousel-item a img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 추가 css */
+.aboutme_me_cont:after {content:''; position:absolute; top:170px; left:50%; margin-left:10px; display: block; width: 18px; height: 18px; background:#f44236; box-shadow:0px 5px 4px rgba(0,0,0,.3);}
+
+.project_left .project_item_sub {}
+
+.aboutme_me_cont:after {
+    animation-name: apple;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+	animation-fill-mode:forwards;
+	}
+
+@keyframes apple {
+    0% {transform: rotate(25deg);}
+    10% {transform: rotate(-25deg);}
+    20% {transform: rotate(0deg);}
+    50% {top:180px;}
+    70% {top:280px;}
+    100% {top:280px;}
+}
